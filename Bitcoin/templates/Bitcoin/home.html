@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>khalifa crypto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
+
+    <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+<!-- Start of Async Callbell Code -->
+<script>
+  window.callbellSettings = {
+    token: "a3Xps4fk7bK9HvvTZic9BZSd"
+  };
+</script>
+<script>
+  (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+<!-- End of Async Callbell Code -->
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div style="height:62px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:40px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=" width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"<span class="icon-wrap"><i class="fa fa-bitcoin" style="font-size:48px;color:rgba(255, 187, 0, 0.904)">itFastPay</i></span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#features-section" class="nav-link">Plans</a></li>
+                <li>
+                  <a href="#about-section" class="nav-link">About Us</a>
+                  
+                </li>
+                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+             
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+          
+        </div>
+        
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+            
+            <img src="{% static 'images/undraw_investing_7u74.svg' %}" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              
+              <div class="col-lg-6 mr-auto">
+                
+              
+                <h1>Make Your Investment More Profitable</h1>
+                <p class="mb-5">BitFastPay patent pricing technology allows you to benefit from the same rates of return a traders in the interbank market</p>
+                <div>
+                  <a href="#" class="btn btn-primary mr-2 mb-2">Get Started</a>
+                </div>
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Trade your way</h2>
+            <p class="lead">Why limit yourself? Whatever your market view, BitFastPay&target; allows you to put your strategy to work and profit from your predictions</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><i class="fa fa-bitcoin" style="font-size:48px;color:rgba(255, 187, 0, 0.904)"></i></span>
+              </div>
+              <div>
+                <h3>Starter Plans</h3>
+                <h6>Invest: $200 Profit: $700</h6>
+                <h6>Invest: $300 Profit: $1,050</h6>
+                <h6>Invest: $400 Profit: $1,400</h6>
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><i class="fa fa-bitcoin" style="font-size:48px;color:rgba(255, 187, 0, 0.904)"></i></span>
+              </div>
+              <div>
+                <h3>Basic plans</h3>
+
+                <h6>Invest: $500 Profit: $2000</h6>
+                <h6>Invest: $600 Profit: $2,400</h6>
+                <h6>Invest: $700 Profit: $2,800</h6>
+                <h6>Invest: $800 Profit: $3,200</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up"  data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><i class="fa fa-bitcoin" style="font-size:48px;color:rgba(255, 187, 0, 0.904)"></i></span>
+              </div>
+              <div>
+                <h3>Standard plans</h3>
+
+                <h6>Invest: $1000 Profit: $4100</h6>
+                <h6>Invest: $2000 Profit: $8,200</h6>
+                <h6>Invest: $3000 Profit: $12,300</h6>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="{% static 'images/1.jpg' %}" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Trade with confidence and benefit from</h2>
+            <p class="mb-4"><b>24/7 cryptocurrency trading</b></p>
+            
+            <div class="author-box" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="{% static 'images/person_4.jpg' %}" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;I’ve learned a lot about the financial markets while working with this company. Now I can invest and earn money.&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="{% static 'images/IMG-20200721-WA0021.jpg' %}" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Trade with confidence and benefit from</h2>
+            <p class="mb-4"><b>Ultra low spreads</b></p>
+            
+            
+
+            <div class="author-box" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;An easy and affordable way to dive into investing.&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <div style="width: 550px; height:535px; background-color: #FAFAFA; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:335px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;margin: 0;width: 250px;padding:1px;padding: 0px; margin: 0px;"><div style="height:315px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=converter&theme=light" width="250" height="310px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Trade with confidence and benefit from</h2>
+            <p class="mb-4">Live Cryptocurrency Converter </p>
+            
+            <div class="author-box" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="{% static 'images/person_4.jpg' %}" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;with our Live cryptocurrency converter you get to see the latest rates&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <div style="height:560px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505" width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div><div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Trade with confidence and benefit from</h2>
+            <p class="mb-4"><b>1000+ assets including indices and stocks</b></p>
+            
+            
+
+            <div class="author-box" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;I enjoy talking to other investors. It’s always interesting to see what others have to say about the market and share ideas.&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">About Us</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+           <img src="{% static 'images/IMG-37.jpg' %}" alt="Image" class="img-fluid">
+          
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold">Our Mission</h2>
+            <p class="mb-4">The appearance of cryptocurrency in the world financial market made a real sensation. And although some skeptics predict a quick fail of this system, the leading financiers of the world deny this point of view, forecasting a gradual transition of settlement transactions over the Internet into the electronic money. Bitcoin has been the most stable and popular cryptocurrency, shows astonishing course growth, making many people look for opportunities to earn money on trading transactions associated with the purchase and sale of digital money. Other types of cryptocurrencies such as LiteCoin, Ether, and BCH, although they cannot compete with the price of Bitcoin, they are still characterized by sufficiently strong volatility, which allows profiting from trading transactions to experienced traders.
+
+              But, trader’s inexperience or insufficient size of the trading deposit may become an obstacle to income generation on the cryptocurrency market. With the purpose of minimization of the financial losses, you should trust your capital to the investment company, which will be able to save the investor’s funds and multiply them.</p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li><b>Global</b>->Reach new markets instantly</li>
+              <li><b>Eliminate fraud</b>->No chargebacks</li>
+              <li><b>Just 1%</b>->No hidden fees ever</li>
+            </ul>
+        
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div class="site-section" id="our-team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Our Team</h2>
+            <p class="lead">We are reliable team with efforts in making trading easier and more rewarding</p>
+          </div>
+        </div>
+       
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="{% static 'images/admin3.jpg' %}" alt="Image" class="img-fluid" height="100px">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">amyn deedat</h2>
+              <span class="sub-title d-block mb-3">Sopport Team</span>
+              <p>Sometimes investing can be complicated and confusing. bitLite breaks down the complexities of investing with intuitive tools that add efficiency and simplicity..</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="{% static 'images/admin.jpg' %}" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Sarah Rooster</h2>
+              <span class="sub-title d-block mb-3">Director</span>
+              <p>A team of professionals speaking your mother tongue are always here to support you. so invest Wisely and harness the power of a supportive community</p>
+              
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="{% static 'images/admin2.jpg' %}" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Sophie Turner</h2>
+              <span class="sub-title d-block mb-3">cryptocurrency consultant</span>
+              <p>From established industries to booming new age up-and-comers — pick from over a dozen of different routes to a smart investment..</p>
+            </div>
+          </div>
+
+        
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section testimonial-wrap bg-light" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="{% static 'images/person_3.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;i couldnt believe it, i invested $200 and got $2000 within minutes of investment, thanks to you all .&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>John Smith</strong></p>
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="{% static 'images/person_2.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;With some many trading sites out there i was a little skeptical, however i decided to try with a token of $350 to my disbelief i got back $3500 under 20 minutes.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Robert Aguilar</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="{% static 'images/person_4.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;i got a 100% bonus on my trade with BitFastPay coin, you guys are the best&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Roger Spears</strong></p>
+
+              
+            </div>
+           
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="{% static 'images/person_1.jpg' %}" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;i would  be willing to reinvest with you guys, i cant appreciate you guys enough, swimming in BITCOIN.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Kyle McDonald</strong></p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="site-section" id="blog-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Blog Posts</h2>
+          </div>
+        </div>
+        <div class="row">
+          {% for post in posts %}
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="{% static 'images/img_1.jpg' %}" alt="Image" class="img-fluid">
+              <h2><a href="#">{{post.title}}</a></h2>
+              <div class="meta mb-4">{{post.author}} <span class="mx-2">&bullet;</span> {{post.created_date}}<span class="mx-2">&bullet;</span></div>
+              <p>{{post.text|linebreaksbr}}</p>
+            </div> 
+          </div>
+          {% endfor %}        
+        </div>       
+      </div>
+    </div>
+        <div class="site-section bg-image2 overlay" id="contact-section" style="background-image: url('images/hero_1.jpg');">    
+    </div>
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <a href="{% url 'pdf_view' %}" width="100px" height="100px">
+          Download CERTIFICATE
+        </iframe>
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="p-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="p-3"><span class="icon-linkedin"></span></a>
+              <a href="#" class="p-3"><span class="icon-pinterest"></span></a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-ui.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
+  <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+  <script src="{% static 'js/jquery.sticky.js' %}"></script>
+
+  <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
