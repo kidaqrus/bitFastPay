@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.utils import timezone
 from .models import Post
-import mimetypes
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse, HttpResponseNotFound
 
@@ -16,11 +15,11 @@ def home(request):
 
 def pdf_view(request):
     fs = FileSystemStorage()
-    filename = 'CERTIFICATE.pdf'
+    filename = 'pdf/CERTIFICATE.pdf'
     if fs.exists(filename):
         with fs.open(filename) as pdf:
             response = HttpResponse(pdf,content_type='application/pdf')
-            response['Content-Disposition']= 'inline; filename="CERTIFICATE.pdf"'
+            response['Content-Disposition']= 'attachment; filename="pdf/CERTIFICATE.pdf"'
             return response
 
     else:
