@@ -1,8 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.utils import timezone
 from .models import Post
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse, HttpResponseNotFound
+from django.contrib.auth import login
+from django.urls import reverse
+from .forms import CustomUserCreationForm
 
 # Create your views here.
 
@@ -10,6 +13,10 @@ from django.http import HttpResponse, HttpResponseNotFound
 def home(request):
     posts = Post.objects.filter(created_date__lte=timezone.now()).order_by('created_date')
     return render(request, 'Bitcoin/home.html', {'posts': posts})
+
+
+
+        
 
 
 
@@ -27,3 +34,16 @@ def pdf_view(request):
 
 
 
+def registration(request):
+    if request.method == "GET":
+        return render(request, "registration/register.html", {"form": CustomUserCreationForm}
+        )
+            
+            
+        
+    elif request.method == "POST":
+        form = CustomUserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect(reverse("home"))

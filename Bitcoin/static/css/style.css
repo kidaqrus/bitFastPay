@@ -3,7 +3,17 @@ body {
   line-height: 1.7;
   color: gray;
   font-weight: 400;
-  font-size: 1rem; }
+  font-size: 1rem;
+ }
+ label, input {
+  display: block;
+  
+}
+span.helptext {
+  display: none;
+}
+
+  
 
 ::-moz-selection {
   background: #000;
